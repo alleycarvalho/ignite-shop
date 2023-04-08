@@ -15,6 +15,9 @@
     "moduleResolution": "node",
     "noEmit": true,
     "paths": {
+      "@assets/*": [
+        "./src/assets/*"
+      ],
       "@pages/*": [
         "./src/pages/*"
       ],
