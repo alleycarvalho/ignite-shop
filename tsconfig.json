@@ -15,8 +15,11 @@
     "moduleResolution": "node",
     "noEmit": true,
     "paths": {
-      "@/*": [
-        "./src/*"
+      "@pages/*": [
+        "./src/pages/*"
+      ],
+      "@styles/*": [
+        "./src/styles/*"
       ],
     },
     "resolveJsonModule": true,
