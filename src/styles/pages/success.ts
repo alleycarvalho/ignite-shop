@@ -6,7 +6,8 @@ export const SuccessContainer = styled('main', {
   alignItems: 'center',
   justifyContent: 'center',
   margin: '0 auto',
-  height: 656,
+  height: 'calc(100vh - 120px)',
+  paddingBottom: '50px',
 
   h1: {
     color: '$gray100',
