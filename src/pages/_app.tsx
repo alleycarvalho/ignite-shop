@@ -1,5 +1,6 @@
 import type { AppProps } from 'next/app'
 import Image from 'next/image'
+import Link from 'next/link'
 
 import logo from '@assets/logo.svg'
 import { globalStyles } from '@styles/global'
@@ -11,7 +12,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <Container>
       <Header>
-        <Image src={logo} alt='' />
+        <Link href='/' prefetch={false}>
+          <Image src={logo} alt='' />
+        </Link>
       </Header>
 
       <Component {...pageProps} />
